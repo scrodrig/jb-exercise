@@ -1,8 +1,6 @@
 import input from '../src/input';
 import { expect } from 'chai';
 
-let chance = require('chance').Chance();
-
 describe('input test', () => {
   describe('size', () => {
     it('should be an integer', () => {

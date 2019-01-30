@@ -1,6 +1,5 @@
 import { expect } from 'chai';
 import { sum, calculate } from '../src/sum';
-import errors from '../src/errors';
 
 let chance = require('chance').Chance();
 
